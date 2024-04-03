@@ -9,3 +9,14 @@
 .profile-picture.profile-picture-sm {
   height: 64px;
 }
+
+.scrollable-container {
+  max-height: 89dvh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.scrollable-container>.btn {
+  display: block;
+  width: 100%;
+}
